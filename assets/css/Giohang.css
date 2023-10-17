@@ -7,7 +7,7 @@
     width: 1200px;
     height: 46px;
     margin: 0 auto;
-    background-image: url(/Demo-shopee/assets/img/p1.png);
+    /* background-image: url(""); */
     margin-bottom: 10px;
 }
 .Phuoc .hang2  {
@@ -16,10 +16,10 @@
     width: 1200px;
     height: 46px;
     
-    margin: 0 auto; /* Để căn giữa theo chiều ngang */
-    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 .Phuoc .hang2 .row span {
     font-size: 15px;
@@ -32,10 +32,10 @@
     width: 1200px;
     height: 46px;
     
-    margin: 0 auto; /* Để căn giữa theo chiều ngang */
-    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
+    margin: 0 auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     border: 1px solid #E8E8E8;
 }
 .Phuoc .hang3 .row img{
