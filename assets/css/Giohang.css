@@ -1,0 +1,96 @@
+.Phuoc{
+    background-color: #F5F5F5;
+}
+.Phuoc .hang1  {
+    border: 1px solid #F3DB97;
+    background-color: #FFFEFB;
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto;
+    background-image: url(/Demo-shopee/assets/img/p1.png);
+    margin-bottom: 10px;
+}
+.Phuoc .hang2  {
+    border: 1px solid #F3DB97;
+    background-color: #FFFEFB;
+    width: 1200px;
+    height: 46px;
+    
+    margin: 0 auto; /* Để căn giữa theo chiều ngang */
+    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+.Phuoc .hang2 .row span {
+    font-size: 15px;
+    color: #888888;
+}
+
+.Phuoc .hang3  {
+    border: 1px solid #F3DB97;
+    background-color: #FFFEFB;
+    width: 1200px;
+    height: 46px;
+    
+    margin: 0 auto; /* Để căn giữa theo chiều ngang */
+    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    border: 1px solid #E8E8E8;
+}
+.Phuoc .hang3 .row img{
+    width: 180%;
+}
+.Phuoc .hang3 .row .col-sm-4 a{
+    padding-left: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.hang_3 {
+    width: 1200px;
+    
+    background-color: white;
+    margin: 0 auto; 
+}
+.Phuoc .hang_3 .container .row {
+    background-color: white;
+}
+.Phuoc .hang_3 .container .row {
+    border-bottom: 1px dotted #E8E8E8;
+
+}
+.hang5 {
+    width: 1200px;
+    height: 138pxpx;
+    background-color: white;
+    margin: 0 auto; 
+}
+.hang5 .row{
+    background-color: white;
+}
+.Phuoc .hang4  {
+    border: 1px solid #E8E8E8;
+    background-color: #FFFEFB;
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto; 
+
+}
+
+.Phuoc .hang_32  {
+    border: 1px solid #E8E8E8;
+    background-color: #FFFEFB;
+    width: 1199px;
+    
+    margin: 0 auto; 
+
+}
+
+.Phuoc .thanhtoan {
+    position: sticky;
+    bottom: -15px;
+}
+.video {
+    margin-left: 20%;
+}

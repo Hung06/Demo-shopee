@@ -1,0 +1,81 @@
+a{
+    text-decoration: none
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.dmuc{
+    list-style: none;
+    display: flex;
+    /* width: 1200px;
+    max-width: 100%; */
+    padding: 40px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.danhmuc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.danhmuc-item {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    display: block;
+    width: 14.28571%;
+    box-sizing: border-box;
+    height: 18.5rem;
+    border-right: 1px solid rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    text-align: center;
+    background-color: #fdfdfd;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform .1s cubic-bezier(.4,0,.6,1),box-shadow .1s cubic-bezier(.4,0,.6,1);
+}
+.danhmuc-item img{
+    width: 100%;
+}
+.title{
+    color: rgba(0,0,0,.8);
+    font-size: 14px;
+    text-align: center;
+}
+.danhmuc-item:hover{
+    background-color: #fff;
+    z-index: 1;
+    border-color: rgba(0,0,0,.12);
+    box-shadow: 0 0 0.8125rem 0 rgba(0,0,0,.05);
+}
+.danhmuc-trang {
+    list-style: none;
+    text-align: center;
+    padding: 0 6.25rem;
+    margin: 3.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.trang {
+    display: inline-block;
+    flex-basis: 100%;
+}
+.title-trang {
+    color: rgba(0,0,0,.14);
+    margin: 0 0.3125rem;
+    text-decoration: none;
+    font-size: 14px;
+}
+.cham {
+    color: rgba(0,0,0,.14);
+    float: right;
+}
+.XLAob- {
+    color: #ee4d2d;
+    cursor: pointer;
+}
+
