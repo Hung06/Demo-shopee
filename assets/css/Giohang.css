@@ -91,6 +91,6 @@
     position: sticky;
     bottom: -15px;
 }
-.video {
-    margin-left: 20%;
+.video iframe{
+    width: 100%;
 }
